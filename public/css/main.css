@@ -1,0 +1,77 @@
+
+body {
+    background: rgb(79, 85, 84);
+    font: normal 15pt Arial;
+}
+header{
+    text-align: center;
+    min-width: 40vh;
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 13px rgb(33, 34, 34);
+}
+section {
+    background: white;
+    max-width: 700px;
+    min-width: 40vh;
+    margin: auto;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 8px 8px 13px rgb(33, 34, 34);
+}
+footer {
+    text-align: center;
+    color: white;
+    min-width: 40vh;
+    font-family: courier,arial,helvetica;
+}
+
+div#logo{
+    width: auto;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+img{
+    max-width: 100%;
+}
+div#infos{
+    text-align: center;
+    
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 50px;
+    text-align: center;
+    margin-right: 50px;
+}
+
+ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+}
+ul li:hover{
+    background-color: rgb(79, 85, 84);
+    box-shadow: 5px 5px 9px rgb(33, 34, 34);
+    height: 30px;
+    border-radius: 10px;
+}
+ul li a:hover {
+    font-size: 25px;
+    color: white;
+}
+div#menu{
+    font-family: arial,sans-serif;
+    font-weight: bold;
+}
+div#res{
+    font-family: arial,sans-serif;
+    font-weight: bold;
+}
